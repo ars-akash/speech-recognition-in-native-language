@@ -1,0 +1,9 @@
+!apt-get -y install sox ffmpeg
+!pip install transformers ffmpeg-python sox
+
+!wget https://raw.githubusercontent.com/harveenchadha/bol/main/demos/colab/record.py
+
+
+from record import record_audio
+
+record_audio('test')
